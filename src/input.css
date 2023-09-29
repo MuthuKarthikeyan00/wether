@@ -1,0 +1,126 @@
+*{
+    margin: auto;
+    background-color:tomato;
+    
+
+  }
+
+  form{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .container{
+    top:30%;
+    position: fixed;
+    left: 10%;
+    right: 10%;
+   
+  }
+
+  .mk2{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .mk{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .frame{
+    background:white;background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 400px;
+    max-width: 100%;
+    padding: 10px;
+    height: 260px;
+    box-shadow: 0 0px 20px 1px rgb(8, 8, 8);
+    border: solid white 2px;
+    border-radius: 10px;
+    
+  }
+  h1{
+    font-size: 30px;
+    text-shadow: -3px -2px rgba(26, 133, 204, 0.575);
+    background-color: rgb(255, 255, 255);
+  }
+  .co{
+    background-color: rgb(255, 255, 255);
+    color: white;
+  }
+  input{
+    border:none;
+    background-color:white;
+    border-bottom: solid black 2px;  outline: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  input:focus{
+    
+    border-bottom: solid rgb(55, 128, 73) 3px;
+    width: 300px;
+   transition: 0.3s all;
+   
+  }
+  .btn1{
+    padding: 5px 10px;
+    background-color: rgb(55, 128, 73);
+    text-transform: inherit !important;
+    color: white;
+    border: none;
+    border-radius:10px ;
+  
+
+   
+  }
+.btn1:hover{
+    
+  padding: 10px 1px;
+  border-radius: 100px;
+  transition: 0.3s all;
+  background-color:rgb(8, 252, 158);
+  color: black;
+  
+}
+.btn1:focus{
+    
+  background-color:tomato;
+  color: white;
+  padding: 15px 5px;
+  border-radius: 100px;
+
+}
+
+img{
+  width: 100px;
+  margin: 10px 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.app-logo{
+  animation:rotate infinite 20s linear;
+  border-radius: 50%;
+}
+
+.des{
+  background: transparent;
+  bottom: 2%;
+  position: fixed;
+  color: rgba(214, 214, 214, 0.486);
+  right:1%;
+  font-size: 10px;
+}
+
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+p{
+  background-color: rgb(255, 255, 255);
+}
+
